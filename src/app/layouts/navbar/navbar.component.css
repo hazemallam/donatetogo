@@ -1,0 +1,33 @@
+.navbar-fixed {
+    
+    /* overflow: hidden; */
+    background-color: 	#eaeae9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  
+}
+.background{
+    background-color: white;
+}
+    .nav-color{
+        color: #5e6383 !important;
+        font-weight: 400;
+        font-size: 1.02rem;
+        text-transform: initial;
+        font-weight: bold;
+    }
+.nav-color:hover{
+    color: #5867dd !important;
+    
+}
+.icon{
+    color: #22b9ff;
+    /* font-size: 1.5rem;
+    font-weight: 500; */
+    /* color: #fff; */
+}
+.done{
+    color: tomato !important;
+}
