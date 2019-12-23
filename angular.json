@@ -28,12 +28,14 @@
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.css",
+              
               "src/styles.css"
             ],
             "scripts": [
               "node_modules/ng-gentelella/gentelella/gentelella.jquery.js",
               "node_modules/ng-gentelella/gentelella/gentelella.module.js",
               "node_modules/jquery/dist/jquery.js",
+              
               "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },

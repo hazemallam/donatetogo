@@ -25,6 +25,7 @@
     "gentelella": "^1.4.0",
     "jquery": "^3.4.1",
     "ng-gentelella": "^0.2.6",
+    "ng2-charts": "^2.3.0",
     "ngx-progressbar": "^2.1.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",

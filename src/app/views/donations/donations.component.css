@@ -1,0 +1,11 @@
+.main-content{
+    min-height: 600px;
+}
+.box{
+    box-shadow: 0 5px 20px rgba(0,0,0,.24);
+    
+    background-color: white;
+}
+.icon-style{
+    color: blue;
+}

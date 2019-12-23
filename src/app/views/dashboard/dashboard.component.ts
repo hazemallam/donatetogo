@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Chart} from 'chart.js';
+import {ChartDataSets, ChartOptions} from 'chart.js';
+import {Color, Label} from 'ng2-charts';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,40 +8,36 @@ import {Chart} from 'chart.js';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  title = 'dashboard'
-  chart = []
-  i:Number = 0
+  lineChartData: ChartDataSets[] = [
+    { data: [85, 72, 78, 75, 77, 75], label: 'Crude oil prices' },
+  ];
+
+  lineChartLabels: Label[] = ['16 Sep', '23 Sep', '30 Sep', '7 Oct', '14 Oct'];
+
+  lineChartOptions = {
+    responsive: true,
+  };
+
+  lineChartColors: Color[] = [
+    {
+      borderColor: 'black',
+      backgroundColor: 'rgba(255,255,0,0.28)',
+    },
+  ];
+
+  lineChartLegend = true;
+  lineChartPlugins = [];
+  lineChartType = 'line';
+  
+  
+
   constructor( ) { 
 
    
   }
 
   ngOnInit() {
-    this.chart = new Chart('lineChart',{
-      type: 'line',
-      data:{
-        labels: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'],
-        datasets:[
-          {
-            label: 'my first data set',
-            data: [1,3,10,56,65, 35,543,543,543],
-            backgroundColor: 'red',
-            borderColor: 'red',
-            fill: false
-          },
-          {
-            label: 'my second data set',
-            data: [1,3,10,56,65, 35,543,543,543].reverse(),
-            backgroundColor: 'blue',
-            borderColor: 'blue',
-            fill: false
-
-          }
-        ]
-      }
-    })
-    
-
+   
   }
   
 

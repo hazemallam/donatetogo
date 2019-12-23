@@ -19,7 +19,7 @@
         font-weight: bold;
     }
 .nav-color:hover{
-    color: #5867dd !important;
+    color: #22b9ff !important;
     
 }
 .icon{
@@ -30,4 +30,9 @@
 }
 .done{
     color: tomato !important;
+}
+
+.ac{
+    border-radius: 17px;
+    background-color: #d1e8ff;
 }

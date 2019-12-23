@@ -5,7 +5,7 @@ import {DonationsComponent} from './views/donations/donations.component';
 import {SubscriptionsComponent} from './views/subscriptions/subscriptions.component';
 import {CardsComponent} from './views/cards/cards.component';
 import {ProfileComponent} from './views/profile/profile.component';
-
+import {BanksComponent} from './views/banks/banks.component';
 
 
 const routes: Routes = [
@@ -13,7 +13,8 @@ const routes: Routes = [
   {path: 'donations', component: DonationsComponent, pathMatch: 'full'},
   {path: 'subscriptions', component: SubscriptionsComponent, pathMatch: 'full'},
   {path: 'cards', component: CardsComponent, pathMatch:'full'},
-  {path: 'profile', component: ProfileComponent, pathMatch: 'full'}
+  {path: 'profile', component: ProfileComponent, pathMatch: 'full'},
+  {path: 'banks', component: BanksComponent, pathMatch: 'full'}
 ];
 
 @NgModule({

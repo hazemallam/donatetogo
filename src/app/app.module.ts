@@ -10,7 +10,8 @@ import { DonationsComponent } from './views/donations/donations.component';
 import { SubscriptionsComponent } from './views/subscriptions/subscriptions.component';
 import { CardsComponent } from './views/cards/cards.component';
 import { ProfileComponent } from './views/profile/profile.component';
-
+import {ChartsModule} from 'ng2-charts';
+import { BanksComponent } from './views/banks/banks.component';
 
 @NgModule({
   declarations: [
@@ -21,11 +22,13 @@ import { ProfileComponent } from './views/profile/profile.component';
     DonationsComponent,
     SubscriptionsComponent,
     CardsComponent,
-    ProfileComponent
+    ProfileComponent,
+    BanksComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ChartsModule
    
   ],
   providers: [],
